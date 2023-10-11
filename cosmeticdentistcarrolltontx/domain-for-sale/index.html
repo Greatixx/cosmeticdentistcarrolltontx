@@ -1,0 +1,232 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="generator" content="Primo" />
+      <!-- HEAD_svelte-dv8t5k_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="icon" type="image/png" sizes="32x32" href="https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/prisaka/assets/logoipsum-277.svg"><link rel="preconnect" href="https://fonts.bunny.net"><style>/* Reset & standardize default styles */
+@import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
+
+/* Design tokens (apply to components) */
+:root {
+  /* Custom theme options */
+  --color-accent: #004700;
+
+  /* Base values */
+  --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  --border-radius: 0;
+  --border-color: #e0e1e1;
+}
+
+/* Root element (use instead of `body`) */
+#page {
+  font-family: system-ui, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  background: white;
+}
+
+/* Elements */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+a.link {
+  line-height: 1.3;
+
+  border-bottom: 2px solid var(--color-accent);
+  transform: translateY(-2px); /* move link back into place */
+  transition: var(--transition, 0.1s border);
+}
+
+a.link:hover {
+    border-color: transparent;
+  }
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.15;
+
+}
+
+.button {
+  color: white;
+  background: var(--color-accent, rebeccapurple);
+  border-radius: 0;
+  padding: 18px 24px;
+  transition: var(--transition, 0.1s box-shadow);
+  border: 0;
+}
+
+/* reset */
+
+.button:hover {
+    box-shadow: 0 0 0 2px var(--color-accent, rebeccapurple);
+  }
+
+.button.inverted {
+    background: transparent;
+    color: var(--color-accent, rebeccapurple);
+  }
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+.content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+.content img {
+    width: 100%;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+.content a.link {
+    line-height: 1.3;
+    font-weight: 500;
+    border-bottom: 2px solid var(--color-accent);
+    transform: translateY(-2px); /* move link back into place */
+    transition: var(--transition, 0.1s border);
+  }
+.content a.link:hover {
+      border-color: transparent;
+    }
+.content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content ul {
+    list-style: disc;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content ol {
+    list-style: decimal;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content blockquote {
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--color-accent);
+  }
+</style><!-- HEAD_svelte-dv8t5k_END -->
+      <style>header.svelte-19bt6nw.svelte-19bt6nw{color:white;background-size:cover;display:grid;gap:20rem}.section-container.svelte-19bt6nw.svelte-19bt6nw{width:100%;display:flex;justify-content:space-between;align-items:center;padding-top:1rem;padding-bottom:1rem}.logo.svelte-19bt6nw.svelte-19bt6nw{font-size:1.5rem;font-weight:600;line-height:1.2}.desktop-nav.svelte-19bt6nw.svelte-19bt6nw{display:none;align-items:center;justify-content:space-between;width:100%}.desktop-nav.svelte-19bt6nw nav.svelte-19bt6nw{display:flex;gap:2rem}.desktop-nav.svelte-19bt6nw nav a.link.svelte-19bt6nw{border-color:transparent;transition:border-color 0.1s;font-size:0.95rem}.desktop-nav.svelte-19bt6nw nav a.link.svelte-19bt6nw:hover,.desktop-nav.svelte-19bt6nw nav a.link .active.svelte-19bt6nw{border-color:initial}@media(min-width: 800px){.desktop-nav.svelte-19bt6nw.svelte-19bt6nw{display:flex
+}}.mobile-nav.svelte-19bt6nw.svelte-19bt6nw{display:flex;align-items:center;justify-content:space-between;width:100%;font-weight:500}@media(min-width: 800px){.mobile-nav.svelte-19bt6nw.svelte-19bt6nw{display:none
+}}.headline.svelte-19bt6nw.svelte-19bt6nw{font-size:clamp(2rem, 10vw, 3.5rem);max-width:800px;padding-bottom:2rem;line-height:1.1}#popup.svelte-19bt6nw.svelte-19bt6nw{color:#222;font-size:1.25rem;display:grid;gap:1rem;position:absolute;text-align:center;background-color:var(--background-color, white);box-shadow:var(--box-shadow, 0px 4px 30px rgba(0, 0, 0, 0.1));border-radius:var(--border-radius);inset:0.5rem;bottom:initial;padding:2rem;z-index:1}#popup.svelte-19bt6nw button#close.svelte-19bt6nw{position:absolute;right:1rem;top:1rem}
+#block-system-main-menu.svelte-k8f78t.svelte-k8f78t{background-color:#fff;color:#337AB7;text-align:center;padding:20px}.menu.nav.svelte-k8f78t.svelte-k8f78t{list-style:none;padding:0}.menu.nav.svelte-k8f78t li.svelte-k8f78t{display:inline;margin-right:20px}.menu.nav.svelte-k8f78t li a.svelte-k8f78t{text-decoration:none;color:#337AB7;font-size:36px;font-weight:none}.menu.nav.svelte-k8f78t li a.active.svelte-k8f78t{font-weight:none}
+.text-center.svelte-1i0fmg7.svelte-1i0fmg7{text-align:center}.title.svelte-1i0fmg7 h1.svelte-1i0fmg7{font-size:36px;font-weight:bold;color:#333}.pane-content.svelte-1i0fmg7.svelte-1i0fmg7{padding:20px}
+.container.svelte-or5kq3.svelte-or5kq3{max-width:1200px;margin:0 auto;padding:20px}.row.svelte-or5kq3.svelte-or5kq3{display:flex}.col.svelte-or5kq3.svelte-or5kq3{background-color:#eee;color:#000;text-align:center;padding:20px;border-radius:5px;margin:10px}.col.svelte-or5kq3 h4.svelte-or5kq3{font-size:24px}.col.svelte-or5kq3 i.fas.svelte-or5kq3{font-size:58px;color:#543e80}.col.svelte-or5kq3 i.fas.fa-play-circle.svelte-or5kq3{font-size:58px;color:#d85a5a}.col.svelte-or5kq3 a.svelte-or5kq3{text-decoration:none;color:#fff}.text.svelte-or5kq3.svelte-or5kq3{margin-top:10px;font-size:16px}.blocknify_form.svelte-or5kq3.svelte-or5kq3{background-color:none;color:#000;text-align:center;padding:20px;border-radius:5px}.blocknify_form.svelte-or5kq3 label.svelte-or5kq3{display:block;margin-top:10px}.blocknify_form.svelte-or5kq3 input[type="text"].svelte-or5kq3,.blocknify_form.svelte-or5kq3 input[type="email"].svelte-or5kq3{width:100%;padding:10px;margin-top:5px;border:none;border-radius:3px}.blocknify_form.svelte-or5kq3 input[type="submit"].svelte-or5kq3{background-color:#543e80;color:#fff;border:none;padding:10px 20px;margin-top:10px;cursor:pointer;border-radius:3px}.modal.svelte-or5kq3.svelte-or5kq3{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.7)}.modal-dialog.svelte-or5kq3.svelte-or5kq3{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);background-color:#fff;padding:20px;border-radius:5px}.close.svelte-or5kq3.svelte-or5kq3{position:absolute;top:10px;right:10px;font-size:24px;color:#333;cursor:pointer}
+footer.svelte-8tgzbe.svelte-8tgzbe{background:#fff;color:#333;font-size:12px}.section-container.svelte-8tgzbe.svelte-8tgzbe{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4rem}.content.svelte-8tgzbe.svelte-8tgzbe{margin:initial;padding:0;line-height:1.1}.nav-items.svelte-8tgzbe.svelte-8tgzbe{display:flex;flex-wrap:wrap;gap:4rem}.nav-items.svelte-8tgzbe ul.svelte-8tgzbe{display:grid;gap:0.5rem}.nav-items.svelte-8tgzbe ul .link.svelte-8tgzbe{border-bottom:2px solid white}.nav-items.svelte-8tgzbe ul .link.svelte-8tgzbe:hover{border-color:transparent}.nav-items.svelte-8tgzbe h3.svelte-8tgzbe{font-weight:500;font-size:1.5rem;margin-bottom:1rem}</style>
+    </head>
+    <body id="page">
+       
+<div class="section" id="section-7851a9a5"><header style="background-image:url('https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694951890000cosmetic_dentist_carrollton_tx_final-compressor_0.jpg')" role="img" aria-label="" class="svelte-19bt6nw"><div class="section-container svelte-19bt6nw"><div class="desktop-nav svelte-19bt6nw"><a href="/" class="logo svelte-19bt6nw"></a>
+      <nav class="svelte-19bt6nw"></nav></div>
+    <div class="mobile-nav svelte-19bt6nw"><a href="/" class="logo svelte-19bt6nw"></a>
+      <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START --><g id="iconifySvelte0"><g id="iconifySvelte1"><g id="iconifySvelte2" fill="currentColor"><rect width="18" height="2" x="3" y="11" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" rx=".95" ry=".95"/></g></g></g><!-- HTML_TAG_END --></svg></button>
+      </div></div>
+  <div class="section-container svelte-19bt6nw"><h1 class="headline svelte-19bt6nw">
+</h1></div></header></div> 
+<div class="section" id="section-94daf9f7"><section id="block-system-main-menu" class="block block-system block-menu clearfix svelte-k8f78t"><ul class="menu nav svelte-k8f78t"><li class="first leaf active svelte-k8f78t"><a href="/" class="active svelte-k8f78t">Home</a></li>
+            <li class="leaf svelte-k8f78t"><a href="/domain-for-sale" title="Domain For Sale" class="svelte-k8f78t">Domain For Sale</a></li>
+            <li class="last leaf svelte-k8f78t"><a href="/security" class="svelte-k8f78t">Security</a></li></ul></section></div> 
+<div class="section" id="section-0603e731"><div class="panel-pane pane-custom pane-1"><div class="pane-content svelte-1i0fmg7"><div class="text-center svelte-1i0fmg7"><div class="title svelte-1i0fmg7"><h1 class="svelte-1i0fmg7">THIS DOMAIN IS FOR SALE</h1></div></div>
+<p class="text-center svelte-1i0fmg7">(Google Page-1 Ranked for Top-Competitive Keywords)</p></div></div></div> 
+<div class="section" id="section-5b93d7f9"><html lang="en"><head><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></head>
+<body><div class="container svelte-or5kq3"><div class="row svelte-or5kq3">
+      <div class="col svelte-or5kq3"><div class="box-part text-center"><a id="videoBtn" href="#videoBtn" onclick="openVideoModal()" class="svelte-or5kq3"><i class="fas fa-play-circle svelte-or5kq3"></i></a>
+          <div class="title"><h4 class="svelte-or5kq3">Play Video</h4></div>
+          <div class="text svelte-or5kq3"><span>Click LINK above to view</span></div></div></div>
+
+      
+      <div class="col svelte-or5kq3"><div class="box-part text-center"><i class="fas fa-file svelte-or5kq3"></i>
+          <div class="title"><h4 class="svelte-or5kq3">Domain Sale PDF</h4></div>
+          <div class="text svelte-or5kq3"><span>Click LINK above to view</span></div></div></div>
+
+      
+      <div class="col svelte-or5kq3"><div class="box-part text-center"><i class="fas fa-file svelte-or5kq3"></i>
+          <div class="title"><h4 class="svelte-or5kq3">Overview INFOGRAPHIC</h4></div>
+          <div class="text svelte-or5kq3"><span>Click LINK above to view</span></div></div></div>
+
+      
+      <div class="col svelte-or5kq3"><div class="box-part text-center"><i class="fas fa-file svelte-or5kq3"></i>
+          <div class="title"><h4 class="svelte-or5kq3">Domain Name Transaction Agreement (SAMPLE)</h4></div>
+          <div class="text svelte-or5kq3"><span>Click LINK above to view</span></div></div></div>
+
+      
+      <div class="col svelte-or5kq3"><div class="box-part text-center blocknify_form svelte-or5kq3"><div class="title"><h4 class="svelte-or5kq3">Please opt-in to initiate acquisition of this domain</h4>
+            <p>IMPORTANT: A valid email address and PIN number will be required to initiate the Agreement and Blockchain Security System.</p></div>
+          <form action="mailto:greatech56@gmail.com" method="post" enctype="text/plain"><label for="fullName" class="svelte-or5kq3">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required class="svelte-or5kq3">
+            <label for="email" class="svelte-or5kq3">Email *</label>
+            <input type="email" id="email" name="email" required class="svelte-or5kq3">
+            <label for="mobilePhone" class="svelte-or5kq3">Mobile Phone *</label>
+            <input type="text" id="mobilePhone" name="mobilePhone" required class="svelte-or5kq3">
+            <label for="city" class="svelte-or5kq3">City *</label>
+            <input type="text" id="city" name="city" required class="svelte-or5kq3">
+            <input type="submit" value="Submit" class="svelte-or5kq3"></form></div></div></div></div>
+
+  
+  <div id="myModal" class="modal svelte-or5kq3" aria-hidden="true"><div class="modal-dialog svelte-or5kq3" role="document"><div class="modal-content"><div class="modal-body"><button id="closeModalBtn" type="button" class="close svelte-or5kq3" aria-label="Close" onclick="closeVideoModal()"><span aria-hidden="true">×</span></button>
+          
+          <iframe id="video" allowscriptaccess="always" allow="autoplay" title=""></iframe></div></div></div></div>
+  
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script></body></html></div> 
+<div class="section" id="section-95cfd93d"><footer class="svelte-8tgzbe"><div class="section-container svelte-8tgzbe"><div class="content svelte-8tgzbe"><!-- HTML_TAG_START --><p>Copyright 2016-2020 Alan Brandt Consulting. All Rights Reserved. Content is protected by U.S. and Intl Copyright Law. No reproduction or distribution is permitted without specific written authorization.</p><!-- HTML_TAG_END --></div>
+    <div class="nav-items svelte-8tgzbe"></div></div></footer></div> 
+
+      <script type="module">
+      import('/_symbols/c65df79c-0df9-4232-87fe-c8ff5707216d.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-94daf9f7'),
+              hydrate: true,
+              props: {"logo":{"image":{"alt":"","src":"https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/public-library/assets/logoipsum-261 (1).svg","url":"https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/public-library/assets/logoipsum-261 (1).svg","size":3},"title":""},"site_nav":[{"link":{"url":"","label":"Home","active":false}},{"link":{"url":"/","label":"About"}},{"link":{"url":"https://primosites.vercel.app/primo-library","label":"Contact"}}]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    
+
+      import('/_symbols/3fdd96e6-0e55-401e-bf26-39d67c72f654.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-7851a9a5'),
+              hydrate: true,
+              props: {"background":{"alt":"","src":"https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694951890000cosmetic_dentist_carrollton_tx_final-compressor_0.jpg","url":"https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694951890000cosmetic_dentist_carrollton_tx_final-compressor_0.jpg","size":100},"headline":"\n","logo":{"image":{"alt":"","src":"","url":"","size":null},"title":""},"site_nav":[]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    </script>
+    </body>
+  </html>
+  

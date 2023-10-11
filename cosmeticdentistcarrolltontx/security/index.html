@@ -1,0 +1,224 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="generator" content="Primo" />
+      <!-- HEAD_svelte-dv8t5k_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="icon" type="image/png" sizes="32x32" href="https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/prisaka/assets/logoipsum-277.svg"><link rel="preconnect" href="https://fonts.bunny.net"><style>/* Reset & standardize default styles */
+@import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
+
+/* Design tokens (apply to components) */
+:root {
+  /* Custom theme options */
+  --color-accent: #004700;
+
+  /* Base values */
+  --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  --border-radius: 0;
+  --border-color: #e0e1e1;
+}
+
+/* Root element (use instead of `body`) */
+#page {
+  font-family: system-ui, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  background: white;
+}
+
+/* Elements */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+a.link {
+  line-height: 1.3;
+
+  border-bottom: 2px solid var(--color-accent);
+  transform: translateY(-2px); /* move link back into place */
+  transition: var(--transition, 0.1s border);
+}
+
+a.link:hover {
+    border-color: transparent;
+  }
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.15;
+
+}
+
+.button {
+  color: white;
+  background: var(--color-accent, rebeccapurple);
+  border-radius: 0;
+  padding: 18px 24px;
+  transition: var(--transition, 0.1s box-shadow);
+  border: 0;
+}
+
+/* reset */
+
+.button:hover {
+    box-shadow: 0 0 0 2px var(--color-accent, rebeccapurple);
+  }
+
+.button.inverted {
+    background: transparent;
+    color: var(--color-accent, rebeccapurple);
+  }
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+.content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+.content img {
+    width: 100%;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+.content a.link {
+    line-height: 1.3;
+    font-weight: 500;
+    border-bottom: 2px solid var(--color-accent);
+    transform: translateY(-2px); /* move link back into place */
+    transition: var(--transition, 0.1s border);
+  }
+.content a.link:hover {
+      border-color: transparent;
+    }
+.content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content ul {
+    list-style: disc;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content ol {
+    list-style: decimal;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content blockquote {
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--color-accent);
+  }
+</style><!-- HEAD_svelte-dv8t5k_END -->
+      <style>#block-system-main-menu.svelte-5jrr4p.svelte-5jrr4p{background-color:#fff;color:#337AB7;text-align:left;padding:20px}.menu.nav.svelte-5jrr4p.svelte-5jrr4p{list-style:none;padding:0}.menu.nav.svelte-5jrr4p li.svelte-5jrr4p{display:inline;margin-right:20px}.menu.nav.svelte-5jrr4p li a.svelte-5jrr4p{text-decoration:none;color:#337AB7;font-size:36px;font-weight:none}.menu.nav.svelte-5jrr4p li a.active.svelte-5jrr4p{font-weight:none}
+.section-container.svelte-5eadfj{padding:1rem 2rem 1rem 2rem}@media(min-width: 900px){.section-container.svelte-5eadfj{padding:2rem 2rem 2rem 2rem
+}}.headline.svelte-5eadfj{color:var(--color-heading);font-size:50px;font-weight:500;margin-bottom:1rem;padding-top:0rem;max-width:1100px;align-items:center;text-align:center}.Alan.svelte-5eadfj{color:#FE6B3A}
+.items.svelte-mcgi5l.svelte-mcgi5l{display:grid;gap:1rem}@media(min-width: 800px){.items.svelte-mcgi5l.svelte-mcgi5l{grid-template-columns:1fr 1fr
+}}.item.svelte-mcgi5l.svelte-mcgi5l{display:grid;place-content:start}.item.svelte-mcgi5l img.svelte-mcgi5l{width:100%;margin-bottom:1.5rem;border-radius:var(--border-radius)}.item.svelte-mcgi5l .bodyy.svelte-mcgi5l{display:flex;line-height:1.5;justify-items:center;align-items:center;align-self:center}.item.svelte-mcgi5l .bodyy .title.svelte-mcgi5l{font-size:1.75rem;margin-bottom:.5rem}
+.about-me-part.svelte-vegdox.svelte-vegdox{background-color:#fff;padding:40px 0}.container.svelte-vegdox.svelte-vegdox{max-width:1200px;margin:0 auto;padding:0 20px}.title-box.svelte-vegdox.svelte-vegdox{text-align:center;margin-bottom:20px}.title-box.svelte-vegdox h3.svelte-vegdox{font-size:24px;color:#333}.content-box.svelte-vegdox.svelte-vegdox{background-color:#fff;padding:20px;border:solid 2px #FE6B3A;border-radius:5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1)}.row.svelte-vegdox.svelte-vegdox{display:flex;flex-wrap:wrap;justify-content:space-between}.col-lg-4.svelte-vegdox.svelte-vegdox,.col-lg-8.svelte-vegdox.svelte-vegdox{flex:0 0 calc(50% - 20px);margin-bottom:20px}.img-box.svelte-vegdox.svelte-vegdox{background-color:#fff;border-radius:5px;box-shadow:0 0 10px rgba(0, 0, 0, 0.1);padding:20px;text-align:center}.img-box.svelte-vegdox img.svelte-vegdox{max-width:100%;height:auto;border-radius:0%;align-items:center
+}.name-box.svelte-vegdox.svelte-vegdox{margin-top:20px;background:#FE6B3A}.name-box.svelte-vegdox h4.svelte-vegdox{font-size:18px;color:#fff}.name-box.svelte-vegdox h3.svelte-vegdox{font-size:16px;color:#fff}.details-box.svelte-vegdox h3.svelte-vegdox{font-size:24px;color:#333;margin-top:0}.details-box.svelte-vegdox h5.svelte-vegdox{font-size:20px;color:#555;margin-bottom:5px;font-weight:bold}.details-box.svelte-vegdox p.svelte-vegdox{font-size:20px;color:#666;line-height:1.5;margin-bottom:20px;font-weight:bold}.details-box.svelte-vegdox a.svelte-vegdox{color:#007bff;text-decoration:none}.details-box.svelte-vegdox .fab.svelte-vegdox{font-size:18px;vertical-align:middle;margin-left:5px}
+header.svelte-1t685dy.svelte-1t685dy{color:var(--color-white, white);position:relative;margin-top:20px;overflow:hidden;background:var(--color-background)}img.svelte-1t685dy.svelte-1t685dy{position:absolute;inset:0;height:100%;width:100%;-o-object-fit:cover;object-fit:cover;z-index:0}.heading-group.svelte-1t685dy.svelte-1t685dy{background:#12121260;display:grid;place-items:center;padding-top:12rem;padding-bottom:12rem;position:relative;gap:1rem}.heading-group.svelte-1t685dy .heading.svelte-1t685dy{background:rgba(81, 142, 186, 0.5);font-size:clamp(2rem, 10vw, 3.5rem);color:var(--color-white, white)}.heading-group.svelte-1t685dy .subheading.svelte-1t685dy{place-self:center;font-size:1.125rem;line-height:1.3;color:var(--color-inverted)}.buttons.svelte-1t685dy.svelte-1t685dy{margin-top:1rem;display:flex;justify-content:center;gap:1rem}.buttons.svelte-1t685dy .button.svelte-1t685dy{background:transparent;color:var(--color-inverted);border:1.5px solid white}
+header.svelte-1t685dy.svelte-1t685dy{color:var(--color-white, white);position:relative;margin-top:20px;overflow:hidden;background:var(--color-background)}img.svelte-1t685dy.svelte-1t685dy{position:absolute;inset:0;height:100%;width:100%;-o-object-fit:cover;object-fit:cover;z-index:0}.heading-group.svelte-1t685dy.svelte-1t685dy{background:#12121260;display:grid;place-items:center;padding-top:12rem;padding-bottom:12rem;position:relative;gap:1rem}.heading-group.svelte-1t685dy .heading.svelte-1t685dy{background:rgba(81, 142, 186, 0.5);font-size:clamp(2rem, 10vw, 3.5rem);color:var(--color-white, white)}.heading-group.svelte-1t685dy .subheading.svelte-1t685dy{place-self:center;font-size:1.125rem;line-height:1.3;color:var(--color-inverted)}.buttons.svelte-1t685dy.svelte-1t685dy{margin-top:1rem;display:flex;justify-content:center;gap:1rem}.buttons.svelte-1t685dy .button.svelte-1t685dy{background:transparent;color:var(--color-inverted);border:1.5px solid white}
+.screenshots-part.svelte-rqkxkq.svelte-rqkxkq{background-color:#f4f4f4;padding:30px 0}.container.svelte-rqkxkq.svelte-rqkxkq{max-width:1200px;margin:0 auto}.row.svelte-rqkxkq.svelte-rqkxkq{display:grid;grid-template-columns:repeat(2, 1fr);gap:30px;margin-top:80px}.img-box.svelte-rqkxkq label.svelte-rqkxkq{display:block;font-weight:bold;margin-bottom:10px}.img-box.svelte-rqkxkq img.svelte-rqkxkq{max-width:100%;height:auto}
+.footer-part.svelte-ibnqta.svelte-ibnqta{background-color:#3A526A;color:white;padding:30px 0;margin:auto}.footer-part.svelte-ibnqta .container.svelte-ibnqta{max-width:1200px;margin:0 auto}.footer-part.svelte-ibnqta .row.svelte-ibnqta{display:flex;justify-content:space-between;margin:auto}.row.svelte-ibnqta.svelte-ibnqta{justify-content:center;align-items:center;margin:auto;padding:40px 20px
+  
+}.navbar-brand.svelte-ibnqta.svelte-ibnqta{font-size:32px;font-weight:bold}.brandsub.svelte-ibnqta.svelte-ibnqta{font-size:20px;font-weight:500
+}.footer-part.svelte-ibnqta .col-lg-4.svelte-ibnqta{flex:0 0 calc(33.33% - 10px);padding:0 5px}.footer-part.svelte-ibnqta label.svelte-ibnqta{display:flex;align-items:center}.footer-part.svelte-ibnqta i.svelte-ibnqta{margin-right:10px}</style>
+    </head>
+    <body id="page">
+       
+<div class="section" id="section-2a975be6"><section id="block-system-main-menu" class="block block-system block-menu clearfix svelte-5jrr4p"><ul class="menu nav svelte-5jrr4p"><li class="first leaf active svelte-5jrr4p"><a href="/" class="active svelte-5jrr4p">Home</a></li>
+            <li class="leaf svelte-5jrr4p"><a href="/domain-for-sale" title="Domain For Sale" class="svelte-5jrr4p">Domain For Sale</a></li>
+            <li class="last leaf svelte-5jrr4p"><a href="/security" class="svelte-5jrr4p">Security</a></li></ul></section></div> 
+<div class="section" id="section-62b0e1ac"><section class="section-container svelte-5eadfj"><h1 class="headline svelte-5eadfj">WELCOME TO <span class="Alan svelte-5eadfj">ALAN BRANDT</span> Consulting</h1></section></div> 
+<div class="section" id="section-fb563dd3"><section class="section-container svelte-mcgi5l"><div class="items svelte-mcgi5l"><div class="item svelte-mcgi5l"><img src="https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694957226000Picture1.png" alt="" class="svelte-mcgi5l">
+        <div class="bodyy svelte-mcgi5l"><h2 class="title heading svelte-mcgi5l">Leonardo da Vinci’s - 1ST Helicopter in Concept 15th-century Flight of Fancy Led to Modern Aeronautics</h2>
+          <div class="description"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></div></div>
+      </div><div class="item svelte-mcgi5l">
+        <div class="bodyy svelte-mcgi5l"><h2 class="title heading svelte-mcgi5l">Knowledge is NOT Power... APPLIED Knowledge is Power.</h2>
+          <div class="description"><!-- HTML_TAG_START --><!-- HTML_TAG_END --></div></div>
+      </div></div></section></div> 
+<div class="section" id="section-3414b707"><section class="about-me-part svelte-vegdox" id="about_me"><div class="container svelte-vegdox"><div class="title-box svelte-vegdox"><h3 class="svelte-vegdox">ABOUT <span>ME</span></h3></div>
+    <div class="content-box svelte-vegdox"><div class="row svelte-vegdox"><div class="col-lg-4 col-md-12 svelte-vegdox"><div class="img-box svelte-vegdox"><div class="top-box"><img src="https://dn87w3mskgcmi.cloudfront.net/img/AlanBrandtConsulting_400x400.png" alt="Alan Brandt's profile" class="img-fluid svelte-vegdox">
+              <div class="name-box svelte-vegdox"><h4 class="svelte-vegdox">Alan Brandt</h4>
+                <h3 class="svelte-vegdox">Internet Forensic Research Scientist</h3></div></div></div></div>
+
+        <div class="col-lg-8 col-md-12 svelte-vegdox"><div class="details-box svelte-vegdox"><h3 class="svelte-vegdox">I&#39;m <b>Alan Brandt</b></h3>
+            <h5 class="svelte-vegdox">- <span>Internet Forensic Research Scientist</span></h5>
+            <h5 class="svelte-vegdox">- <span>Private Developer of Google Page-1 Ranked GEO-Profession Tier-1 U.S. Domain Names</span></h5>
+            <p class="svelte-vegdox">For the purpose of this Domain Sale, we will let a Google Search of Alan Brandt Consulting on the LinkedIn.com business website objectively speak for my CREDIBILITY and EXPERTISE.</p>
+            <p class="svelte-vegdox">My LinkedIn Profile is: <a href="https://www.linkedin.com/in/alanbrandt/" class="svelte-vegdox"><i class="fab fa-linkedin-in svelte-vegdox" aria-label="Alan Brandt's LinkedIn Profile"></i></a></p></div></div></div></div></div></section></div> 
+<div class="section" id="section-371e269d"><header class="svelte-1t685dy"><img src="https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694957226000Picture3.jpeg" alt="" class="svelte-1t685dy">
+  <div class="heading-group svelte-1t685dy"><h1 class="heading svelte-1t685dy">The purpose of this ABOUT PAGE is to exhibit CREDIBILITY and a TRUST FACTOR about Alan Brandt’s achievements as an Internet Forensic Research Scientist.</h1>
+    <span class="subheading svelte-1t685dy"><div class="buttons svelte-1t685dy"></div></span></div></header></div> 
+<div class="section" id="section-c4944e46"><header class="svelte-1t685dy"><img src="https://gutthqrirloipwznpztk.supabase.co/storage/v1/object/public/images/ce06e91f-7265-4724-a7e7-b3dab3266c31/1694957226000Picture4.png" alt="" class="svelte-1t685dy">
+  <div class="heading-group svelte-1t685dy"><h1 class="heading svelte-1t685dy">The purpose of this ABOUT PAGE is to exhibit CREDIBILITY and a TRUST FACTOR about Alan Brandt’s achievements as an Internet Forensic Research Scientist.</h1>
+    <span class="subheading svelte-1t685dy"><div class="buttons svelte-1t685dy"></div></span></div></header></div> 
+<div class="section" id="section-1c310ea7"><section class="screenshots-part svelte-rqkxkq" id="service"><div class="container svelte-rqkxkq"><div class="title-box"><h3>Google <span>Screenshots</span></h3>
+                <p>Here are SCREENSHOTS of verifiable Google Search Engine Results (SERPS) which demonstrate Google Page-1 Rankings reflecting Alan Brandt Consulting professional exposure on LinkedIn.com:
+                </p></div>
+
+            <div class="row svelte-rqkxkq"><div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img1" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img2" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img2.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img3" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img3.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img4" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img4.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img5" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img5.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img6" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img6.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img7" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img7.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img8" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img8.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img9" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img9.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div>
+                <div class="col-md-6"><div class="img-box svelte-rqkxkq"><label for="img10" class="svelte-rqkxkq">G-SEARCH - <a href="#img">site:linkedin.com &quot;U.S. Domain Names&quot;</a></label>
+                        <img src="https://dn87w3mskgcmi.cloudfront.net/img/screeshot/img10.png" alt="none" class="img-fluid svelte-rqkxkq"></div></div></div></div></section></div> 
+<div class="section" id="section-f17811d2"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<footer class="footer-part svelte-ibnqta"><div class="container svelte-ibnqta"><div class="row svelte-ibnqta"><div class="col-lg-4 col-md-6 svelte-ibnqta"><div class="logo-box box"><h3 class="navbar-brand svelte-ibnqta">Alan Brandt</h3>
+                    <h5 class="brandsub svelte-ibnqta">Internet Forensic Research Scientist</h5></div></div>
+            <div class="col-lg-4 col-md-6 svelte-ibnqta"><div class="link-box box" id="contact"><a href="https://www.linkedin.com/in/alanbrandt/"><label for="linkedin-control" class="svelte-ibnqta"><i class="fab fa-linkedin-in svelte-ibnqta"></i>AlanBrandt</label>
+                        <input type="hidden" id="linkedin-control"></a></div></div>
+            <div class="col-lg-4 col-md-6 svelte-ibnqta"><div class="address-box box"><label for="location-control" class="svelte-ibnqta"><i class="fas fa-map-marker-alt svelte-ibnqta"></i> Texas, U.S.A.
+                    </label>
+                    <input type="hidden" id="location-control"></div></div></div></div></footer></div> 
+
+      <script type="module">
+      import('/_symbols/66f1b659-14a4-42f4-ac61-9813d0f7a3b0.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-2a975be6'),
+              hydrate: true,
+              props: {"logo":{"image":{"alt":"","src":"https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/public-library/assets/logoipsum-261 (1).svg","url":"https://jbbjtodsvhsgjappwopg.supabase.co/storage/v1/object/public/sites/public-library/assets/logoipsum-261 (1).svg","size":3},"title":""},"site_nav":[{"link":{"url":"","label":"Home","active":false}},{"link":{"url":"/","label":"About"}},{"link":{"url":"https://primosites.vercel.app/primo-library","label":"Contact"}}]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    </script>
+    </body>
+  </html>
+  
