@@ -1,4 +1,4 @@
-// Navigation 1 - Updated October 11, 2023
+// Navigation 1 (copy) - Updated October 12, 2023
 function noop() { }
 function run(fn) {
     return fn();
@@ -1309,18 +1309,18 @@ function create_fragment(ctx) {
 		},
 		h() {
 			attr(a0, "href", "/");
-			attr(a0, "class", "active svelte-k8f78t");
-			attr(li0, "class", "first leaf active svelte-k8f78t");
+			attr(a0, "class", "active svelte-5jrr4p");
+			attr(li0, "class", "first leaf active svelte-5jrr4p");
 			attr(a1, "href", "/domain-for-sale");
 			attr(a1, "title", "Domain For Sale");
-			attr(a1, "class", "svelte-k8f78t");
-			attr(li1, "class", "leaf svelte-k8f78t");
+			attr(a1, "class", "svelte-5jrr4p");
+			attr(li1, "class", "leaf svelte-5jrr4p");
 			attr(a2, "href", "/security");
-			attr(a2, "class", "svelte-k8f78t");
-			attr(li2, "class", "last leaf svelte-k8f78t");
-			attr(ul, "class", "menu nav svelte-k8f78t");
+			attr(a2, "class", "svelte-5jrr4p");
+			attr(li2, "class", "last leaf svelte-5jrr4p");
+			attr(ul, "class", "menu nav svelte-5jrr4p");
 			attr(section, "id", "block-system-main-menu");
-			attr(section, "class", "block block-system block-menu clearfix svelte-k8f78t");
+			attr(section, "class", "block block-system block-menu clearfix svelte-5jrr4p");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
