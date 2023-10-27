@@ -1,4 +1,4 @@
-// Navigation 1 - Updated October 25, 2023
+// Navigation 1 - Updated October 27, 2023
 function noop() { }
 function run(fn) {
     return fn();
@@ -1253,10 +1253,6 @@ function create_fragment(ctx) {
 	let li1;
 	let a1;
 	let t2;
-	let t3;
-	let li2;
-	let a2;
-	let t4;
 
 	return {
 		c() {
@@ -1264,15 +1260,11 @@ function create_fragment(ctx) {
 			ul = element("ul");
 			li0 = element("li");
 			a0 = element("a");
-			t0 = text("Home");
+			t0 = text("Domain For Sale");
 			t1 = space();
 			li1 = element("li");
 			a1 = element("a");
-			t2 = text("Domain For Sale");
-			t3 = space();
-			li2 = element("li");
-			a2 = element("a");
-			t4 = text("Security");
+			t2 = text("Security");
 			this.h();
 		},
 		l(nodes) {
@@ -1282,45 +1274,34 @@ function create_fragment(ctx) {
 			var ul_nodes = children(ul);
 			li0 = claim_element(ul_nodes, "LI", { class: true });
 			var li0_nodes = children(li0);
-			a0 = claim_element(li0_nodes, "A", { href: true, class: true });
+			a0 = claim_element(li0_nodes, "A", { href: true, title: true, class: true });
 			var a0_nodes = children(a0);
-			t0 = claim_text(a0_nodes, "Home");
+			t0 = claim_text(a0_nodes, "Domain For Sale");
 			a0_nodes.forEach(detach);
 			li0_nodes.forEach(detach);
 			t1 = claim_space(ul_nodes);
 			li1 = claim_element(ul_nodes, "LI", { class: true });
 			var li1_nodes = children(li1);
-			a1 = claim_element(li1_nodes, "A", { href: true, title: true, class: true });
+			a1 = claim_element(li1_nodes, "A", { href: true, class: true });
 			var a1_nodes = children(a1);
-			t2 = claim_text(a1_nodes, "Domain For Sale");
+			t2 = claim_text(a1_nodes, "Security");
 			a1_nodes.forEach(detach);
 			li1_nodes.forEach(detach);
-			t3 = claim_space(ul_nodes);
-			li2 = claim_element(ul_nodes, "LI", { class: true });
-			var li2_nodes = children(li2);
-			a2 = claim_element(li2_nodes, "A", { href: true, class: true });
-			var a2_nodes = children(a2);
-			t4 = claim_text(a2_nodes, "Security");
-			a2_nodes.forEach(detach);
-			li2_nodes.forEach(detach);
 			ul_nodes.forEach(detach);
 			section_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
-			attr(a0, "href", "/");
-			attr(a0, "class", "active svelte-k8f78t");
-			attr(li0, "class", "first leaf active svelte-k8f78t");
-			attr(a1, "href", "/domain-for-sale");
-			attr(a1, "title", "Domain For Sale");
-			attr(a1, "class", "svelte-k8f78t");
-			attr(li1, "class", "leaf svelte-k8f78t");
-			attr(a2, "href", "/security");
-			attr(a2, "class", "svelte-k8f78t");
-			attr(li2, "class", "last leaf svelte-k8f78t");
-			attr(ul, "class", "menu nav svelte-k8f78t");
+			attr(a0, "href", "/domain-for-sale");
+			attr(a0, "title", "Domain For Sale");
+			attr(a0, "class", "svelte-lghpo8");
+			attr(li0, "class", "leaf svelte-lghpo8");
+			attr(a1, "href", "/security");
+			attr(a1, "class", "svelte-lghpo8");
+			attr(li1, "class", "last leaf svelte-lghpo8");
+			attr(ul, "class", "menu nav svelte-lghpo8");
 			attr(section, "id", "block-system-main-menu");
-			attr(section, "class", "block block-system block-menu clearfix svelte-k8f78t");
+			attr(section, "class", "block block-system block-menu clearfix svelte-lghpo8");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
@@ -1332,10 +1313,6 @@ function create_fragment(ctx) {
 			append_hydration(ul, li1);
 			append_hydration(li1, a1);
 			append_hydration(a1, t2);
-			append_hydration(ul, t3);
-			append_hydration(ul, li2);
-			append_hydration(li2, a2);
-			append_hydration(a2, t4);
 		},
 		p: noop,
 		i: noop,
