@@ -1272,7 +1272,7 @@ function create_fragment(ctx) {
 			t3 = space();
 			li2 = element("li");
 			a2 = element("a");
-			t4 = text("Security");
+			t4 = text("Purchase");
 			this.h();
 		},
 		l(nodes) {
@@ -1300,7 +1300,7 @@ function create_fragment(ctx) {
 			var li2_nodes = children(li2);
 			a2 = claim_element(li2_nodes, "A", { href: true, class: true });
 			var a2_nodes = children(a2);
-			t4 = claim_text(a2_nodes, "Security");
+			t4 = claim_text(a2_nodes, "Purchase");
 			a2_nodes.forEach(detach);
 			li2_nodes.forEach(detach);
 			ul_nodes.forEach(detach);
@@ -1315,7 +1315,7 @@ function create_fragment(ctx) {
 			attr(a1, "title", "Domain For Sale");
 			attr(a1, "class", "svelte-5jrr4p");
 			attr(li1, "class", "leaf svelte-5jrr4p");
-			attr(a2, "href", "/security");
+			attr(a2, "href", "/purchase");
 			attr(a2, "class", "svelte-5jrr4p");
 			attr(li2, "class", "last leaf svelte-5jrr4p");
 			attr(ul, "class", "menu nav svelte-5jrr4p");
