@@ -1296,7 +1296,7 @@ function create_fragment(ctx) {
 			attr(a0, "title", "Domain For Sale");
 			attr(a0, "class", "svelte-lghpo8");
 			attr(li0, "class", "leaf svelte-lghpo8");
-			attr(a1, "href", "/purchase");
+			attr(a1, "href", "/security");
 			attr(a1, "class", "svelte-lghpo8");
 			attr(li1, "class", "last leaf svelte-lghpo8");
 			attr(ul, "class", "menu nav svelte-lghpo8");

@@ -2784,7 +2784,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (101:4) {#each icon_list as { icon, label }}
+// (103:4) {#each icon_list as { icon, label }}
 function create_each_block_1(ctx) {
 	let li;
 	let span0;
@@ -2825,8 +2825,8 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span0, "class", "icon svelte-j8y07v");
-			attr(li, "class", "svelte-j8y07v");
+			attr(span0, "class", "icon svelte-bpsgfp");
+			attr(li, "class", "svelte-bpsgfp");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -2860,7 +2860,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (111:4) {#each cards as card}
+// (113:4) {#each cards as card}
 function create_each_block(ctx) {
 	let li;
 	let div0;
@@ -2924,12 +2924,12 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div0, "class", "icon svelte-j8y07v");
-			attr(h3, "class", "title svelte-j8y07v");
+			attr(div0, "class", "icon svelte-bpsgfp");
+			attr(h3, "class", "title svelte-bpsgfp");
 			attr(a, "href", a_href_value = /*card*/ ctx[6].link.url);
-			attr(a, "class", "link svelte-j8y07v");
-			attr(div1, "class", "body svelte-j8y07v");
-			attr(li, "class", "svelte-j8y07v");
+			attr(a, "class", "link svelte-bpsgfp");
+			attr(div1, "class", "body svelte-bpsgfp");
+			attr(li, "class", "svelte-bpsgfp");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -3067,12 +3067,12 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-j8y07v");
+			attr(h2, "class", "heading svelte-bpsgfp");
 			attr(div, "class", "subheading");
-			attr(header, "class", "heading-group svelte-j8y07v");
-			attr(ul0, "class", "icon-list svelte-j8y07v");
-			attr(ul1, "class", "cards svelte-j8y07v");
-			attr(section, "class", "section-container svelte-j8y07v");
+			attr(header, "class", "heading-group svelte-bpsgfp");
+			attr(ul0, "class", "icon-list svelte-bpsgfp");
+			attr(ul1, "class", "cards svelte-bpsgfp");
+			attr(section, "class", "section-container svelte-bpsgfp");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
